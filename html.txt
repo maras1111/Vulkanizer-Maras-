@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vulkanizer Maras</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Naslovna</a></li>
+                <li><a href="#services">Usluge</a></li>
+                <li><a href="#contact">Kontakt</a></li>
+                <li><a href="#reservation">Rezervacija</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h1>Dobrodošli na službenu stranicu Vulkanizer Maras</h1>
+        <p>Vulkanizer Maras, utemeljen 1994. godine, nudi zamjenu guma, prodaju guma, balansiranje guma, krpanje guma te besplatno savjetovanje.</p>
+    </section>
+
+    <section id="services">
+        <h2>Naše usluge</h2>
+        <ul>
+            <li>Zamjena guma - [Cijena s popustom]</li>
+            <li>Prodaja guma - [Cijena s popustom]</li>
+            <li>Balansiranje guma - [Cijena s popustom]</li>
+            <li>Krpanje guma - [Cijena s popustom]</li>
+            <li>Besplatno savjetovanje</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Kontakt informacije</h2>
+        <p>Adresa: Ul. Resnik I 147, 10000 Zagreb, Hrvatska</p>
+        <p>Telefon: [Vaš broj telefona]</p>
+        <p>E-mail: [Vaš e-mail]</p>
+        <a href="https://goo.gl/maps/U8NzR9aN2sT2" target="_blank">Lokacija na Google Maps</a>
+    </section>
+
+    <section id="reservation">
+        <h2>Rezervirajte svoju uslugu online</h2>
+        <form>
+            <label for="name">Ime:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="surname">Prezime:</label>
+            <input type="text" id="surname" name="surname" required>
+            
+            <label for="contact">Kontakt (telefon ili e-mail):</label>
+            <input type="text" id="contact" name="contact" required>
+            
+            <label for="service">Odabrana usluga:</label>
+            <select id="service" name="service" required>
+                <option value="zamjena-guma">Zamjena guma</option>
+                <option value="prodaja-guma">Prodaja guma</option>
+                <option value="balansiranje-guma">Balansiranje guma</option>
+                <option value="krpanje-guma">Krpanje guma</option>
+                <option value="savjetovanje">Besplatno savjetovanje</option>
+            </select>
+            
+            <label for="date">Datum:</label>
+            <input type="date" id="date" name="date" required>
+            
+            <label for="time">Vrijeme:</label>
+            <input type="time" id="time" name="time" required>
+            
+            <button type="submit">Rezerviraj</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Vulkanizer Maras. Sva prava pridržana.</p>
+    </footer>
+</body>
+</html>
